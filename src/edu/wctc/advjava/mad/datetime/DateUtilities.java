@@ -18,6 +18,7 @@ public class DateUtilities {
     
     /**
      * Format a <code>LocalDateTime</code> according to a specified pattern
+     * as described in the <code>DateTimeFormatter</code> class
      * 
      * @param dateTime a <code>LocalDateTime</code>
      * @param formatStyle - An accepted pattern for DateTimeFormatter objects
@@ -47,6 +48,7 @@ public class DateUtilities {
     }
     /**
      * Convert a string representation of a date into <code>LocalDate</code> object using a specified pattern
+     * as described in the <code>DateTimeFormatter</code> class
      * 
      * @param dateString - a string representation of a date
      * @param pattern - the DateTimeFormatter pattern of your dateString
@@ -62,6 +64,7 @@ public class DateUtilities {
     }
     /**
      * Convert a string representation of a date into <code>LocalDateTime</code> object using a specified pattern
+     * as described in the <code>DateTimeFormatter</code> class
      * 
      * @param dateString - a string representation of a date and time
      * @param pattern - the DateTimeFormatter pattern of your dateString
